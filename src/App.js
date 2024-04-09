@@ -3,6 +3,7 @@ import './App.css';
 import LiyuRobotIntro from './components/LiyuRobotIntro';
 import InfiniteCarousel from './components/InfiniteCarousel';
 import { Analytics } from "@vercel/analytics/react";
+import Footer from './components/Footer';
 
 function App() {
   const [showCarousel, setShowCarousel] = useState(false);
@@ -15,6 +16,7 @@ function App() {
       </div>
       {showCarousel && <InfiniteCarousel />}
       <Analytics />
+      <Footer />
     </div>
   );
 }
