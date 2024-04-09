@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Footer from './components/Footer';
 
 function App() {
-  const [showCarousel, setShowCarousel] = useState(false);
+  const [showCarousel, setShowCarousel] = useState(true);
 
   return (
     <div className="App">
