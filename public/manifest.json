@@ -1,6 +1,6 @@
 {
-  "short_name": "Telegram Analyzer",
-  "name": "A simple tool to analyze your Telegram chats",
+  "short_name": "Analyzer",
+  "name": "Chat Analyzer",
   "icons": [
     {
       "src": "favicon.ico",
